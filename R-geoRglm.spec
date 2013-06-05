@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          0.9_2
+Version:          0.9.2
 Release:          1
 Summary:          geoRglm - a package for generalised linear spatial models
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.9-2.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/geoRglm_0.9-2.tar.gz
 Requires:         R-geoR R-stats 
 Requires:         R-coda 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-geoR R-stats
@@ -47,3 +47,4 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+
