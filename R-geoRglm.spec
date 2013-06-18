@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          0.9_2
-Release:          1
+Release:          2
 Summary:          geoRglm - a package for generalised linear spatial models
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
